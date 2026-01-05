@@ -1,0 +1,9 @@
+# Credentials
+*.json
+config/
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+venv/
