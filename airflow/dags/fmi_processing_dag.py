@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 default_args = {
     'owner': 'data-engineer',
     'depends_on_past': False,
-    'email': ['your-email@example.com'],
+    'email': ['my-email@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 2,
@@ -47,7 +47,7 @@ dag = DAG(
     tags=['weather', 'fmi', 'bigquery'],
 )
 
-# Configuration - YOUR PROJECT!
+# Configuration - My PROJECT!
 PROJECT_ID = 'data-analytics-project-482302'
 DATASET_ID = 'fmi_weather'
 
