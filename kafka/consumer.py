@@ -115,7 +115,7 @@ class FMIKafkaConsumer:
             logger.info(f"Dataset {self.dataset_id} already exists")
         except Exception:
             dataset = bigquery.Dataset(dataset_ref)
-            dataset.location = "US"  # Change to "EU" if you prefer
+            dataset.location = "US" 
             self.bq_client.create_dataset(dataset)
             logger.info(f"Created dataset {self.dataset_id}")
         
