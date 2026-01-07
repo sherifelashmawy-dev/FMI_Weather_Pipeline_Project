@@ -301,7 +301,7 @@ class FMIKafkaConsumer:
 def main():
     """
     Main function to run the consumer.
-    This runs when you execute: python consumer.py
+    This runs when I execute: python consumer.py
     """
     # Configuration
     KAFKA_SERVERS = ['localhost:9092']
