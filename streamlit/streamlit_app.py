@@ -44,7 +44,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-# Configuration - YOUR PROJECT!
+# Configuration
 PROJECT_ID = 'data-analytics-project-482302'
 DATASET_ID = 'fmi_weather'
 CREDENTIALS_PATH = '/home/ubuntu/config/data-analytics-project-482302-254e4fd06277.json'
